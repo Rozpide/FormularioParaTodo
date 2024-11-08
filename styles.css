@@ -5,3 +5,14 @@ h6 {
     background-color: rgba(97, 96, 96, 0.764);
     border-radius: 3%;
 }
+.relative-container {
+    position: relative;
+}
+.absolute-icon {
+    position: absolute;
+    top: 31%;/* primer ajustar aqui*/
+    left: 65%;/* segundo ajustar aqui*/
+    transform: translate(-22%, -60%);/*centrar el icono definitivamente para hacer ajuste fino*/
+    color: rgb(59, 57, 57);
+    font-size: 15px;
+}
