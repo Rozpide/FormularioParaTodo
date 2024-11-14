@@ -1,18 +1,26 @@
 h6 {
-    color:grey;
+  color: grey;
 }
 .metodoPago {
-    background-color: rgba(97, 96, 96, 0.764);
-    border-radius: 3%;
+  background-color: rgba(97, 96, 96, 0.764);
+  border-radius: 3%;
 }
 .relative-container {
-    position: relative;
+  position: relative;
 }
 .absolute-icon {
-    position: absolute;
-    top: 31%;/* primer ajustar aqui*/
-    left: 65%;/* segundo ajustar aqui*/
-    transform: translate(-22%, -60%);/*centrar el icono definitivamente para hacer ajuste fino*/
-    color: rgb(59, 57, 57);
-    font-size: 15px;
+  position: absolute;
+  top: 31%; /* primer ajustar aqui*/
+  left: 65%; /* segundo ajustar aqui*/
+  transform: translate(
+    -22%,
+    -60%
+  ); /*centrar el icono definitivamente para hacer ajuste fino*/
+  color: rgb(59, 57, 57);
+  font-size: 15px;
+}
+body {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+  perspective: 1000px;
 }
